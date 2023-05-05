@@ -31,7 +31,7 @@ def load_model():
     global scrapped_reviews
     
 
-
+#Creating the app UI
 def create_app_ui():
     main_layout = html.Div(style={'backgroundImage':'linear-gradient(to right, cyan, green)','height':'100vh'},children=[
         html.H1(id='main_title', children = 'Sentiment Analysis for Movie Reviews', style={'margin-botton':'12px','text-align':'center','width':'100%'}),
