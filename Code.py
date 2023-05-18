@@ -54,6 +54,7 @@ def open_browser():
     [
     Input( 'textarea_review', 'value')]
 )
+#Creating the app UI fuction to genrate the UI
 def update_app_ui(textarea_value):
     # print("Data Type = ", str(type(textarea_value)))
     # print("Value = ", str(textarea_value))
