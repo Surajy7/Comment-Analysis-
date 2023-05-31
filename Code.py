@@ -1,4 +1,4 @@
-# Day 69 - Linking the Pickle Model
+# Day - Linking the Pickle Model
 
 #importing libraries
 import re
