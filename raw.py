@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import pickle
-#Reading the dataset
+# dataset
 dataset = pd.read_csv('balanced_reviews.csv')
 dataset.dropna(inplace=True)
 dataset = dataset[dataset['overall'] != 3]
