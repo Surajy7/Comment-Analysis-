@@ -11,7 +11,7 @@ import pandas as pd
 import dash
 import dash_html_components as html
 import webbrowser
-import pickle
+import pickle 
 # Declaring GLobal Variables
 def check_review(textData):
     recreated_model = pickle.load(open('model_data.pkl', 'rb'))
