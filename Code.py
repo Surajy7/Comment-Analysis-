@@ -7,7 +7,7 @@ import dash_html_components
 import dash_core_components as dcc  
 import dash_bootstrap_components as dbc 
 from dash_html_components import H1 
-import pandas as pd
+import pandas as pd 
 import dash
 import dash_html_components as html 
 import webbrowser
